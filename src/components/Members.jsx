@@ -115,7 +115,12 @@ const Members = () => {
                 src={member.image}
                 alt={member.name}
                 className="member-img"
-                style={{ width: "150px", height: "150px", borderRadius: "0%" }}
+                style={{
+                  width: "150px",
+                  height: "150px",
+                  borderRadius: "0%",
+                  objectFit: "cover",
+                }}
               />
               <h4>{member.name}</h4>
               <p>{member.description}</p>
@@ -127,4 +132,3 @@ const Members = () => {
   );
 };
 export default Members;
-+
