@@ -846,6 +846,10 @@ body {
     padding: 14px 28px;
     font-size: 1rem;
   }
+  .floating-books,
+  .floating-quotes {
+    display: none !important;
+  }
 
   /* About section improvements */
   .about {
