@@ -12,6 +12,8 @@ import rahulImg from "../assets/Rahul.jpg";
 import avikImg from "../assets/avik.jpg";
 import loduImg from "../assets/prasant.jpg";
 import avishiImg from "../assets/avishiMam.jpg";
+import ashishImg from "../assets/AshishOjha.jpg";
+import priyanshuImg from "../assets/priyanshu.jpg";
 
 const Members = () => {
   const members = [
@@ -20,6 +22,23 @@ const Members = () => {
       description:
         "We read and write poetry because we are members of the human race and the human race is filled with passion.",
       image: adrijaImg,
+    },
+    {
+      name: "Disha (PG-FET)",
+      description:
+        "“Choosing books cause it gives my calmness a longer shelf life”",
+      image: dishaImg,
+    },
+    {
+      name: "Avishi kala (PG-FET)",
+      description:
+        "Between the lines of my stories, I hope you find pieces of yourself",
+      image: avishiImg,
+    },
+    {
+      name: "Ashish Ojha (GIN)",
+      description: "Growth begins when you stay grounded.",
+      image: ashishImg,
     },
     {
       name: "Antash Kumar jha (GCS'24)",
@@ -50,12 +69,6 @@ const Members = () => {
       image: NishthaImg,
     },
     {
-      name: "Arpit Garg (Cff'24)",
-      description:
-        "“Poetry isn’t on paper, it’s in people—come share yours with us.”",
-      image: ArpitImg,
-    },
-    {
       name: "Stuti Rani (GCT'24)",
       description:
         "The only person you are destined to become is the person you decide to be.",
@@ -72,22 +85,22 @@ const Members = () => {
       image: rahulImg,
     },
     {
-      name: "Disha (PG-FET)",
-      description:
-        "“Choosing books cause it gives my calmness a longer shelf life”",
-      image: dishaImg,
-    },
-    {
       name: "Prashant Tiwari (GEE'24)",
       description:
         "मंज़िल मिल ही जाएगी भटकते-भटकते,गुमराह तो वो हैं जो घर से निकले ही नहीं।",
       image: loduImg,
     },
     {
-      name: "Avishi kala (PG-FET)",
+      name: "Priyanshu (GEE'24)",
       description:
-        "Between the lines of my stories, I hope you find pieces of yourself",
-      image: avishiImg,
+        "Little things aren’t little, they’re the ones that make life big.",
+      image: priyanshuImg,
+    },
+    {
+      name: "Arpit Garg (Cff'24)",
+      description:
+        "“Poetry isn’t on paper, it’s in people—come share yours with us.”",
+      image: ArpitImg,
     },
   ];
 
@@ -114,4 +127,4 @@ const Members = () => {
   );
 };
 export default Members;
-
++
