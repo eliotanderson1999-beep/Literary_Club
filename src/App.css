@@ -248,7 +248,11 @@ body {
     padding: 10px 15px;
   }
 }
-
+@media (max-width: 480px) {
+  .nav-link {
+    padding: 10px 12px;
+  }
+}
 /* About Section */
 .about {
   padding: 100px 0;
